@@ -1,18 +1,16 @@
-package com.pattern.factory;
+package com.pattern.factorymethod;
 
-public class ChicagoStyleVeggiePizza extends Pizza {
+public class ChicagoStyleClamPizza extends Pizza {
 	
-	public ChicagoStyleVeggiePizza() {
+	
+	public ChicagoStyleClamPizza() {
 		
 		name = "Chicago Style Deep Dish Cheese Pizza";
 		dough = "Extra Thick Crust Dough";
 		sauce = "Plum Tomato Sauce";
 		
 		toppings.add("Shredded Mozzarella Cheese");
-		toppings.add("Bell Peppers");
-		toppings.add("Mushrooms");
-		toppings.add("Onions");
-		toppings.add("Black Olives");
+		toppings.add("Clams");
 	}
 	
 	void cut() {
