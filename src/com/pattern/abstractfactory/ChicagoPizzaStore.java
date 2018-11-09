@@ -14,12 +14,16 @@ public class ChicagoPizzaStore extends PizzaStore {
 		switch(type) {
 		
 		case "cheese" : pizza = new CheesePizza(ingredientFactory);
+		break;
 
 		case "veggie" : pizza = new VeggiePizza(ingredientFactory);
-
+        break;
+		
 		case "clam" : pizza = new ClamPizza(ingredientFactory);
+		break;
 
 		case "pepperoni" : pizza = new PepperoniPizza(ingredientFactory);
+		break;
 
 		default: pizza = null;
 				
