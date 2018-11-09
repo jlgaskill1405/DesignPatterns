@@ -8,6 +8,9 @@ public class PizzaTestDrive {
 		
 		nyPizzaStore.orderPizza("cheese");
 		
+		PizzaStore chiPizzaStore = new ChicagoPizzaStore();
+		
+		chiPizzaStore.orderPizza("pepperoni");
 	}
 
 }
